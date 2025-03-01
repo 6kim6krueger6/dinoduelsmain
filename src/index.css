@@ -9,17 +9,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Затемненное фоновое изображение */
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7), /* Полупрозрачный черный цвет (0.5 — прозрачность) */
-      rgba(0, 0, 0, 0.7)
-    ),
-    url('./image.png'); /* Путь к изображению */
-  background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь экран */
-  background-position: center; /* Центрируем изображение */
-  background-repeat: no-repeat; /* Запрещаем повторение изображения */
-  background-attachment: fixed; /* Фиксируем фон, чтобы он не скроллился */
 }
 
 code {
