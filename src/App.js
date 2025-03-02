@@ -3,9 +3,6 @@ import Sidebar from './components/sidebar';
 import Homepage from './components/homepage';
 import Connect from './components/connect';
 import RockPaper from './components/RockPaper'; // Пример новой страницы
-import AboutUs from './components/AboutUs'; // Пример новой страницы
-import ContactUs from './components/ContactUs'; // Пример новой страницы
-import Footer from './components/Footer'; // Импортируем Footer
 
 function App() {
   return (
@@ -22,17 +19,12 @@ function App() {
               <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="/rock-paper-scissors" element={<RockPaper />} />
-                <Route path="/about-us" element={<AboutUs />} />
-                <Route path="/contact-us" element={<ContactUs />} />
               </Routes>
             </div>
 
-            {/* Футер */}
-            {/* <Footer className="flex-shrink-0" /> */}
           </div>
         </div>
 
-        {/* Компонент Connect (если он должен быть на всех страницах) */}
         <Connect />
       </div>
     </Router>
