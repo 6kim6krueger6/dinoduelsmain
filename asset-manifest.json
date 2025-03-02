@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dinoduelsmain/static/css/main.6896f2f5.css",
+    "main.js": "/dinoduelsmain/static/js/main.3b418e63.js",
+    "static/js/162.4d44cfea.chunk.js": "/dinoduelsmain/static/js/162.4d44cfea.chunk.js",
+    "static/js/171.9b263de2.chunk.js": "/dinoduelsmain/static/js/171.9b263de2.chunk.js",
+    "static/js/55.44d022ca.chunk.js": "/dinoduelsmain/static/js/55.44d022ca.chunk.js",
+    "static/js/453.64be9eb2.chunk.js": "/dinoduelsmain/static/js/453.64be9eb2.chunk.js",
+    "static/js/126.76768e20.chunk.js": "/dinoduelsmain/static/js/126.76768e20.chunk.js",
+    "static/media/image.png": "/dinoduelsmain/static/media/image.a73cd57e5cde1641bc8a.png",
+    "static/media/index.cjs": "/dinoduelsmain/static/media/index.d5b35ece7c425af5eaae.cjs",
+    "index.html": "/dinoduelsmain/index.html",
+    "main.6896f2f5.css.map": "/dinoduelsmain/static/css/main.6896f2f5.css.map",
+    "main.3b418e63.js.map": "/dinoduelsmain/static/js/main.3b418e63.js.map",
+    "162.4d44cfea.chunk.js.map": "/dinoduelsmain/static/js/162.4d44cfea.chunk.js.map",
+    "171.9b263de2.chunk.js.map": "/dinoduelsmain/static/js/171.9b263de2.chunk.js.map",
+    "55.44d022ca.chunk.js.map": "/dinoduelsmain/static/js/55.44d022ca.chunk.js.map",
+    "453.64be9eb2.chunk.js.map": "/dinoduelsmain/static/js/453.64be9eb2.chunk.js.map",
+    "126.76768e20.chunk.js.map": "/dinoduelsmain/static/js/126.76768e20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6896f2f5.css",
+    "static/js/main.3b418e63.js"
+  ]
+}
