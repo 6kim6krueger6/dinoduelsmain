@@ -48,7 +48,7 @@ function Homepage() {
             <p className="text-lg mb-4">Our project is currently on minting stage.</p>
           </div>
           <a
-            href="https://6kim6krueger6.github.io/dinoduelsmint/"
+            href="https://dinoduels.github.io/dinoduelsmint/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#15C748] text-white px-6 py-2 rounded-lg hover:bg-[#12A93D] transition-colors duration-200"
