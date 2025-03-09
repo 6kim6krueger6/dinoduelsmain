@@ -1,10 +1,10 @@
 import { IoMdHome } from "react-icons/io";
 import { useState } from 'react';
 import { GiDinosaurRex } from "react-icons/gi";
-import { BsChevronDown, BsTwitter } from "react-icons/bs"; // Импортируем BsTwitter
+import { BsChevronDown, BsTwitter } from "react-icons/bs"; 
 import { CgGames } from "react-icons/cg";
 import { IoIosHelpCircle } from "react-icons/io";
-import { Link } from 'react-router-dom'; // Импортируем Link
+import { Link } from 'react-router-dom'; 
 
 function Sidebar() {
     const [open, setOpen] = useState(false);
@@ -37,7 +37,6 @@ function Sidebar() {
                 <ul className='pt-2'>
                     {Menus.map((menu, index) => (
                         <div key={index}>
-                            {/* Элемент меню */}
                             {menu.path && !menu.submenu ? (
                                 <Link to={menu.path}>
                                     <li
@@ -68,12 +67,11 @@ function Sidebar() {
                                 </li>
                             )}
 
-                            {/* Подменю */}
                             {menu.submenu && submenuStates[index] && open && (
                                 <ul>
                                     {menu.submenuItems.map((submenuItem, subIndex) => (
                                         <li key={subIndex}>
-                                            {submenuItem.path.startsWith("http") ? ( // Проверяем, является ли путь внешней ссылкой
+                                            {submenuItem.path.startsWith("http") ? ( 
                                                 <a
                                                     href={submenuItem.path}
                                                     target="_blank"
@@ -98,8 +96,7 @@ function Sidebar() {
                 </ul>
             </div>
 
-            {/* Кнопка для перехода в Twitter (X) */}
-            <div className="mt-auto"> {/* mt-auto для прижатия к нижней части */}
+            <div className="mt-auto"> 
                 <a
                     href="https://x.com/dinoduels"
                     target="_blank"
@@ -107,7 +104,7 @@ function Sidebar() {
                     className="flex items-center gap-x-4 text-gray-300 text-sm p-2 hover:bg-light-white rounded-md mt-2"
                 >
                     <BsTwitter className="text-2xl" />
-                    <span className={`text-base font-medium ${!open && "invisible"}`}> {/* Используем invisible */}
+                    <span className={`text-base font-medium ${!open && "invisible"}`}> 
                         Twitter
                     </span>
                 </a>

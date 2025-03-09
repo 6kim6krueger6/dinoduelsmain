@@ -132,9 +132,9 @@ function RockPaper() {
   useEffect(() => {
     fetchGameData();
 
-    const interval = setInterval(fetchGameData, 5000); // Обновляем данные каждые 5 секунд
+    const interval = setInterval(fetchGameData, 5000); 
 
-    return () => clearInterval(interval); // Очищаем интервал при размонтировании компонента
+    return () => clearInterval(interval); 
   }, []);
 
   useEffect(() => {
@@ -176,7 +176,7 @@ function RockPaper() {
         const transaction = await contract.startGame(data.tokenId, data.choice);
         await transaction.wait(1);
         console.log("Done!");
-        await fetchGameData(); // Обновляем данные после успешного завершения транзакции
+        await fetchGameData(); 
       } catch (error) {
         console.log(error);
         throw new Error(error.reason || "Failed to start the game");
@@ -196,7 +196,7 @@ function RockPaper() {
         const transaction = await contract.joinGame(data.gameId, data.tokenId, data.choice);
         await transaction.wait(1);
         console.log("Done!");
-        await fetchGameData(); // Обновляем данные после успешного завершения транзакции
+        await fetchGameData(); 
       } catch (error) {
         console.log(error);
         throw new Error(error.reason || "Failed to join the game");

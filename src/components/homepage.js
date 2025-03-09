@@ -12,14 +12,11 @@ function Homepage() {
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${backgroundImage})`,
       }}
     >
-      {/* Заголовок по центру */}
       <h1 className="text-6xl font-bold mb-8 text-white text-shadow-lg animate-fade-in">
         Welcome to the DinoDuels!
       </h1>
 
-      {/* Контейнер для двух дивов */}
       <div className="flex flex-row gap-8">
-        {/* Бокс с кнопкой для перехода к игре */}
         <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center max-w-md w-full flex flex-col justify-between">
           <div>
             <div className="w-full flex justify-center mb-4">
@@ -39,7 +36,6 @@ function Homepage() {
           </button>
         </div>
 
-        {/* Бокс с кнопкой для перехода к минту */}
         <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center max-w-md w-full flex flex-col justify-between">
           <div>
             <div className="w-full flex justify-center mb-4">

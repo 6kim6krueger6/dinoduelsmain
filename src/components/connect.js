@@ -10,8 +10,8 @@ function Connect() {
         const fetchAddress = async () => {
             if (authenticated && window.ethereum) {
                 try {
-                    const provider = new ethers.BrowserProvider(window.ethereum); // Используем BrowserProvider
-                    const signer = await provider.getSigner(); // getSigner теперь асинхронный
+                    const provider = new ethers.BrowserProvider(window.ethereum); 
+                    const signer = await provider.getSigner(); 
                     const address = await signer.getAddress();
                     const shortAddress = `${address.slice(0, 6)}...${address.slice(-4)}`;
                     setWalletAddress(shortAddress);
